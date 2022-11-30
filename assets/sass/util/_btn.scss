@@ -1,0 +1,16 @@
+@use "../global/colors";
+.btn {
+    padding: 15px;
+    border: none;
+    box-shadow: 0 5px rgba(0, 0, 0, 0.2), 0 5px var(--primary-green);
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    &_theme_green {
+        background-color: var(--primary-green);
+        color: var(--white);
+    }
+    &:hover {
+        opacity: 0.9;
+    }
+}

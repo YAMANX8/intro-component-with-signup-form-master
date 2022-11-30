@@ -1,0 +1,33 @@
+@use "../global/colors";
+.card {
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 10px rgb(0 0 0 / 20%);
+    border-radius: 5px;
+    background-color: var(--white);
+    &_theme_blue {
+        background-color: var(--accent-blue);
+        color: var(--white);
+    }
+    &__header {
+        padding-inline: 45px;
+    }
+    &__input {
+        min-width: 100%;
+        padding: 15px;
+        border-radius: 5px;
+        border: 1px solid var(--natural-gray-blue);
+        font-weight: 600;
+        &:focus-visible {
+            border: 2px solid var(--black);
+        }
+    }
+    &__terms {
+        color: var(--natural-gray-blue);
+        font-size: 0.81em;
+        font-weight: 600;
+        & > a {
+            color: var(--primary-red);
+        }
+    }
+}

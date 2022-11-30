@@ -1,0 +1,27 @@
+@use "../global/colors";
+.error {
+    color: var(--primary-red);
+    position: relative;
+    text-align: right;
+    &__icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding: 11px 20px;
+        display: none;
+    }
+    &__message {
+        font-size: 0.75em;
+        font-weight: 700;
+        font-style: italic;
+        display: none;
+    }
+    & &__icon,& &__message{
+        display: block;
+    }
+    & .card__input{
+        border:1px solid var(--primary-red);
+        color: var(--primary-red);
+    }
+}
+
