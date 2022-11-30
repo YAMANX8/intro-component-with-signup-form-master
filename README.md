@@ -24,8 +24,8 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
 
 ### Screenshot
 
-![](./screenshot.png)
-![](./screenshot2.png)
+![](/screenshot.png)
+![](/screenshot2.png)
 
 ### Links
 
