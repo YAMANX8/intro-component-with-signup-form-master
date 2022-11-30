@@ -24,13 +24,13 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
 
 ### Screenshot
 
-![](/screenshot.png)
-![](/screenshot2.png)
+![](screenshot.png)
+![](screenshot2.png)
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://yamanx8.github.io/intro-component-with-signup-form-marster/index.html)
+- Live Site URL: [Add live site URL here](https://yamanx8.github.io/intro-component-with-signup-form-master/index.html)
 
 ## My process
 
